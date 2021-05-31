@@ -6,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class DataService {
 
-  private url = 'https://tai21-test.herokuapp.com/';
+  private url = 'http://localhost:3001';
 
   constructor(private http: HttpClient) {
   }
